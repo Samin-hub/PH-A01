@@ -228,3 +228,36 @@ body{
     cursor: pointer;
     font-weight: bold;
 }
+
+/* Footer part */
+.footer{
+    background-image: url(Assets/Hero-bg.png);
+    margin-top: 40px;
+    text-align: center;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer h1{
+    color: aqua;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.footer p{
+    font-size: large;
+    padding: 10px;
+    color: darkslategrey;
+    margin-bottom: 10px;
+}
+.footer-links a{
+    margin: 0 10px;
+    text-decoration: none;
+    
+}
+.footer-links a:hover{
+    color:burlywood;
+    text-decoration: underline;
+}
