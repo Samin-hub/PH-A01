@@ -1,7 +1,12 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* navbar-banner */
 .nav-banner{
     background-image: url(Assets/Hero-bg.png);
     background-size: cover;
 }
+/* navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -21,10 +26,11 @@
     border: none;
     cursor: pointer;
 }
+/* banner */
 .banner{
     text-align: center;
     padding: 100px 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .focus-btn{
     padding: 8px 16px;
@@ -34,3 +40,34 @@
     border: none;
     cursor: pointer;
 }
+
+/* Action-part */
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 60px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.left h1{
+   font-size: xx-large;
+   margin-bottom: 20px;
+}
+.left p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.launch-btn{
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.right img{
+    border-radius: 20px;
+}
+
