@@ -70,4 +70,36 @@ body{
 .right img{
     border-radius: 20px;
 }
+/* User's Action */
+.user-action{
+    background-color:rgba(216, 244, 240, 0.713) ;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 15px;
+    width: 800px;
+    height bottom: 2px;
+    margin: 0 auto;
+    
+    
+}
+.user-action h2{
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+.states{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 0;
+}
+
+.state-box h3{
+    font-size: 40px;
+    color: blue;
+    margin-bottom: 4px;
+}
+.state-box p{
+    color: grey;
+    margin: 0;
+}
 
