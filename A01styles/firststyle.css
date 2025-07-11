@@ -170,3 +170,61 @@ body{
 .ready img{
     border-radius: 25px;
 }
+
+/* Contact Section */
+.contact-section{
+    background-color: aliceblue;
+    width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 15px;
+    
+}
+.contact-container{
+    display: flex;
+    
+    margin: auto;
+   
+    justify-content: space-between;
+
+}
+.contact-left{
+    font-size: 60px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.contact-right{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+.contact-right input,
+.contact-right textarea{
+   margin-bottom: 15px;
+   padding: 15px;
+   font-size: 14px;
+   border: 1px solid rgb(188, 181, 181);
+   border-radius: 5px;
+   width: 350px;
+}
+.contact-right textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+.contact-right button{
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
