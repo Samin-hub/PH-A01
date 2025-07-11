@@ -1,3 +1,7 @@
+.nav-banner{
+    background-image: url(Assets/Hero-bg.png);
+    background-size: cover;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -5,7 +9,7 @@
   padding: 60px 60px;
 }
 .logo{
-    font-size: large;
+    font-size: 40px;
     font-weight: bold;
     color: blue
 }
@@ -16,7 +20,17 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
-
-
-
+}
+.banner{
+    text-align: center;
+    padding: 100px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.focus-btn{
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
